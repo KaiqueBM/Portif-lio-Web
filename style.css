@@ -1,0 +1,402 @@
+#header{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container-header{
+    width: 100vw;
+    height: 340px;
+}
+
+#container-header-fundo{
+    width: 100vw;
+    height: 300px;
+    background-image: linear-gradient(-137deg, #1f4f9c, #832386);
+    display: inline-block;
+    position: relative;
+}
+#container-header-fundoimg{
+    background-image: url(img/fundo.png);
+    background-size: 750px;
+    background-position-y:96px;
+    
+    background-repeat:repeat-x;
+    
+}
+
+#title{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    margin: 0;
+    float: left;
+    margin-left: 40px;
+}
+#container-nav{
+    width: 100vw;
+    text-align: center;
+}
+#container-nav li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5em;
+    display:inline-block;
+    text-align: center;
+    transition: color 0.2s ease-in-out, color 0.2s ease-in-out;
+    text-decoration: none;
+}
+#container-nav li:hover{
+    border-radius: 10%;
+    color: #202020;
+    transition: color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+#nav-buttom{
+    display: inline-block;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    transition: background-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out, border 0.3s ease-in-out;
+    text-decoration: none;
+}
+#nav-buttom:hover{
+    background-color: white;
+    border: 3px solid #202020;
+    transition: background-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+#img-title{
+    width: 175px;
+    height: 175px;
+    background-image: url(img/img-top.png);
+    background-size: cover;
+    border-radius: 100%;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: block;
+}
+
+#about{
+    margin: 0 3% 0 3%;
+    position: relative;
+}
+#about-title{
+    font-family: Roboto, sans-serif;
+    font-size: 300%;
+    text-align: center;
+}
+#about-description{
+    font-family: Rajdhani, sans-serif;
+    font-size: 100%;
+    text-align: justify;
+    padding: 5px;
+    text-indent: 3%;
+}
+
+
+#profile{
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    grid-column-gap: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+.container-profile-box{
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    margin-top: 2%;
+    position: relative;
+    border-top: 12px solid #5023a3;
+    flex-flow: column wrap;
+    width: 400px;
+}
+#profile-title{
+    font-family: Roboto, sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+#profile-description{
+    font-family: Rajdhani, sans-serif;
+    font-size: 100%;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 3%;
+}
+
+#myprojects{
+    width: 1280px;
+    margin: auto;
+    position: relative; 
+}
+#myproject{
+    font-family: Roboto, sans-serif;
+    font-size: 200%;
+    text-align: center; 
+    padding-bottom: 10px;  
+}
+
+
+#fundo-section{
+    width: 100vw;
+    background-image: linear-gradient(-137deg, #1f4f9c, #832386);
+}
+#section{
+    width: 1280px;
+    height: 680px;
+    margin: auto;
+    position: relative;
+}
+#container-panel-big{
+    width: 805px;
+    height: 300px;
+    margin-top: 2%;
+    margin-left: 28px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position-y: -125px;
+}
+#big-bar{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: 80%;
+}
+#big-font{
+    color: white;
+    font-family: Rajdhani, sans-serif;
+    font-size: 170%;
+    margin: auto;
+    display: inline-block;
+    padding: 11px;
+}
+.big-buttom{
+    float: right;
+    width: 115px;
+    margin-right: 1.5%;
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #5023a3;
+    font-weight: 700;
+    font-family: Rajdhani, sans-serif;
+    font-size: 150%;
+    border-radius: 150px;
+    padding-top: 5px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+.container-panel-box{
+    width: 390px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 2%;
+    margin-left: 28px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+}
+.min-font{
+    color: white;
+    font-family: Rajdhani, sans-serif;
+    font-size: 170%;
+    margin: auto;
+    display: inline-block;
+    padding: 11px;
+}
+.bar{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: 80%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#contact{
+    width: 1280px;
+    height: 630px;
+    margin: auto;
+    position: relative;
+}
+.box-contact1{
+    width: 80%;
+    height: 170px;
+    background-color: rgb(241, 241, 241);
+    border-left: 12px solid #5023a3;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+#box-contact1-title{
+    font-family: Roboto, sans-serif;
+    font-size: 150%;
+    text-indent: 3.8%;
+    padding-top: 5px;
+}
+#box-contact1-description{
+    font-family: Rajdhani, sans-serif;
+    font-size: 100%;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 3%;
+}
+#box-contact1-buttom{
+    font-family: Rajdhani, sans-serif;
+    font-size: 100%;
+    border: 5px solid #5023a3;
+    width: 15%;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    float: right;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.box-contact2{
+    width: 80%;
+    height: 170px;
+    background-color: rgb(241, 241, 241);
+    border-right: 12px solid #5023a3;
+    border-radius: 10px;
+    float: right;
+    margin-bottom: 10px;
+}
+#box-contact2-title{
+    font-family: Roboto, sans-serif;
+    font-size: 150%;
+    margin-right: 20px;
+    padding-top: 5px;
+    float: right;
+}
+#box-contact2-description{
+    font-family: Rajdhani, sans-serif;
+    font-size: 100%;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 3%;
+    float: right;
+}
+#box-contact2-buttom{
+    font-family: Rajdhani, sans-serif;
+    font-size: 100%;
+    border: 5px solid #5023a3;
+    width: 15%;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+
+
+#rodape { /*rodapé*/
+    color: rgb(201, 201, 201);
+    width: 100vw;
+    height: 100px;
+    background-image: linear-gradient(-137deg, #1f4f9c, #832386);
+    border-top: 3px solid #333333;
+}
+#principal_rodape { /*Rodapé 1024*/
+    width: 1280px;
+    margin: auto;
+    position: relative;
+}
+#rodape_redessociais { /*Rodapé redes sociais*/
+    width:150px;
+    height: 90px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin-left: 370px;
+}
+
+#rodape_texto { /*rodapé texto*/
+    font-family: Roboto, sans-serif;
+    margin-top: 0.5%;
+    margin-left: 28px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+hr{
+    border: 1px solid white;
+}
+
+@media screen and (min-width: 1380px) { 
+
+    #about{
+        width: 1280px;
+        margin: auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 800px) { 
+
+    #container-nav{
+        margin-left: -30px;
+    }
+
+    #profile{
+        flex-wrap: wrap;
+    }
+    .container-profile-box{
+        border-top: 1.4vw solid #5023a3;
+        width: 95%;
+        margin-bottom: 5px;
+    }
+    #profile-title{
+        font-size: 3vw;
+    }
+    #profile-description{
+        font-size: 2.5vw;
+    }
+    #about-title{
+        font-size: 5vw;
+    }
+    #about-description{
+        font-size: 2.5vw;
+    }
+    #img-title{
+        width: 160px;
+        height: 160px;
+        margin-top: 90px;
+    }
+}
