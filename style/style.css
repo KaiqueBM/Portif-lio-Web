@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+body{
+    padding: 0;
+    margin: 0;
+}
 
 a{
     text-decoration: none;
@@ -20,7 +24,7 @@ a{
     position: relative;
 }
 #container-header-fundoimg{
-    background-image: url(img/fundo.png);
+    background-image: url(../img/fundo.png);
     background-size: 750px;
     background-position-y:96px;
     
@@ -78,7 +82,7 @@ a{
 #img-title{
     width: 175px;
     height: 175px;
-    background-image: url(img/img-top.png);
+    background-image: url(../img/img-top.png);
     background-size: cover;
     border-radius: 100%;
     border: 3px solid white;
@@ -151,91 +155,7 @@ a{
 }
 
 
-#fundo-section{
-    width: 100vw;
-    background-image: linear-gradient(-137deg, #1f4f9c, #832386);
-}
-#section{
-    width: 1280px;
-    height: 680px;
-    margin: auto;
-    position: relative;
-}
-#container-panel-big{
-    width: 805px;
-    height: 300px;
-    margin-top: 2%;
-    margin-left: 28px;
-    display: inline-block;
-    border-radius: 10px;
-    position: relative;
-    float: left;
-    background-color: #ffffff;
-    background-size: cover;
-    background-position-y: -125px;
-}
-#big-bar{
-    background-color: rgb(41, 41, 41);
-    width: 100%;
-    height: 20%;
-    position: absolute;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    top: 80%;
-}
-#big-font{
-    color: white;
-    font-family: Rajdhani, sans-serif;
-    font-size: 170%;
-    margin: auto;
-    display: inline-block;
-    padding: 11px;
-}
-.big-buttom{
-    float: right;
-    width: 115px;
-    margin-right: 1.5%;
-    margin-top: 8px;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid #5023a3;
-    font-weight: 700;
-    font-family: Rajdhani, sans-serif;
-    font-size: 150%;
-    border-radius: 150px;
-    padding-top: 5px;
-    text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 3px;
-}
-.container-panel-box{
-    width: 390px;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-    float: left;
-    margin-top: 2%;
-    margin-left: 28px;
-    border-radius: 10px;
-    display: inline-block;
-    position: relative;
-}
-.min-font{
-    color: white;
-    font-family: Rajdhani, sans-serif;
-    font-size: 170%;
-    margin: auto;
-    display: inline-block;
-    padding: 11px;
-}
-.bar{
-    background-color: rgb(41, 41, 41);
-    width: 100%;
-    height: 20%;
-    position: absolute;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    top: 80%;
-}
+
 img {
     max-width: 100%;
     height: auto;
@@ -243,19 +163,18 @@ img {
 
 
 #contact{
-    width: 1280px;
-    height: 630px;
     margin: auto;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1280px;
 }
 .box-contact1{
-    width: 80%;
-    height: 170px;
     background-color: rgb(241, 241, 241);
     border-left: 12px solid #5023a3;
     border-radius: 10px;
-    float: left;
     margin-bottom: 10px;
+    margin: 10px auto 10px auto;
 }
 #box-contact1-title{
     font-family: Roboto, sans-serif;
@@ -273,26 +192,26 @@ img {
 #box-contact1-buttom{
     font-family: Rajdhani, sans-serif;
     font-size: 100%;
-    border: 5px solid #5023a3;
+    border: 4px solid #5023a3;
     width: 15%;
     height: 10%;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     border-radius: 30px;
     background-color: white;
     float: right;
     margin-right: 10px;
+    margin-bottom: 10px;
     font-weight: 700;
 }
 
 .box-contact2{
-    width: 80%;
-    height: 170px;
     background-color: rgb(241, 241, 241);
     border-right: 12px solid #5023a3;
     border-radius: 10px;
-    float: right;
     margin-bottom: 10px;
+    margin: 10px auto 10px auto;
+    width: 1280px;
 }
 #box-contact2-title{
     font-family: Roboto, sans-serif;
@@ -312,48 +231,43 @@ img {
 #box-contact2-buttom{
     font-family: Rajdhani, sans-serif;
     font-size: 100%;
-    border: 5px solid #5023a3;
+    border: 4px solid #5023a3;
     width: 15%;
     height: 10%;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     border-radius: 30px;
     background-color: white;
     float: left;
     margin-left: 10px;
+    margin-bottom: 10px;
     font-weight: 700;
 }
-
 
 
 #rodape { /*rodapé*/
     color: rgb(201, 201, 201);
     width: 100vw;
-    height: 100px;
     background-image: linear-gradient(-137deg, #1f4f9c, #832386);
     border-top: 3px solid #333333;
 }
 #principal_rodape { /*Rodapé 1024*/
-    width: 1280px;
     margin: auto;
-    position: relative;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }
 #rodape_redessociais { /*Rodapé redes sociais*/
-    width:150px;
-    height: 90px;
     font-family: Roboto, sans-serif;
     text-align: center;
-    display: inline-block;
-    margin-left: 370px;
+    margin: 10px 10px 10px 10px;
 }
 
 #rodape_texto { /*rodapé texto*/
     font-family: Roboto, sans-serif;
-    margin-top: 0.5%;
-    margin-left: 28px;
-    display: inline-block;
-    position: relative;
     text-align: center;
+    margin: 10px 10px 10px 10px;
 }
 hr{
     border: 1px solid white;
@@ -366,9 +280,41 @@ hr{
         margin: auto;
         position: relative;
     }
+    .container-myproject{
+        width: 1380px;
+        margin: auto;
+    }
 }
 
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 1380px) { 
+
+    #contact{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .box-contact1{
+        width: 80%;
+    }
+    .box-contact2{
+        width: 80%;
+    }
+    #box-contact1-buttom{
+        font-size: 100%;
+        border: 3px solid #5023a3;
+        width: auto;
+        padding: 5px 15px 5px 15px;
+    }
+    #box-contact2-buttom{
+        font-size: 100%;
+        border: 3px solid #5023a3;
+        width: auto;
+        padding: 5px 15px 5px 15px;
+    }
+    #box-contact2-description{
+    }
+}
+
+@media screen and (max-width: 900px) { 
 
     #container-nav{
         margin-left: -30px;
@@ -379,7 +325,7 @@ hr{
     }
     .container-profile-box{
         border-top: 1.4vw solid #5023a3;
-        width: 95%;
+        width: 70%;
         margin-bottom: 5px;
     }
     #profile-title{
@@ -389,10 +335,13 @@ hr{
         font-size: 2.5vw;
     }
     #about-title{
-        font-size: 5vw;
+        font-size: 200%;
+    }
+    #about img{
+        width: 80%;
     }
     #about-description{
-        font-size: 2.5vw;
+        font-size: 80%;
     }
     #img-title{
         width: 160px;

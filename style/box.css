@@ -1,0 +1,89 @@
+#container-myproject-big{
+    background-image: linear-gradient(-137deg, #1f4f9c, #832386);
+}
+.container-myproject{
+    padding: 30px 50px 30px 50px;
+    display: grid;
+    grid-template-areas: "i1 i1 i2"
+                         "i3 i4 i5";
+    grid-gap: 20px;
+}
+
+.box{
+    height: 300px;
+    border-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.box:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+.item1{
+    grid-area: i1;
+    background-color: rgb(255, 255, 255);
+}
+
+.item2{
+    grid-area: i2;
+    background-color: rgb(255, 255, 255);
+}
+.item3{
+    grid-area: i3;
+    background-color: rgb(255, 255, 255);
+}
+.item4{
+    grid-area: i4;
+    background-color: rgb(255, 255, 255);
+}
+.item5{
+    grid-area: i5;
+    background-color: rgb(255, 255, 255);
+}
+
+.bar{
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 20%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top: 80%;
+}
+
+.box-buttom{
+    background-color: rgb(255, 255, 255);
+    font-family: Rajdhani, sans-serif;
+    font-weight: 600;
+    font-size: 140%;
+    text-align: center;
+    border: 3px solid #777777;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 1.3%;
+    float: right;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.box-title{
+    color: white;
+    font-family: Rajdhani, sans-serif;
+    font-size: 120%;
+    margin: auto;
+    display: inline-block;
+    padding: 11px;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1100px) { 
+
+    .container-myproject{
+       grid-template-columns: 1fr;
+       grid-template-rows: 6fr;
+       grid-template-areas: "i1" "i2" "i3" "i4" "i5";
+    }
+}
