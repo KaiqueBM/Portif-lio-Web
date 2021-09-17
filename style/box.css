@@ -92,7 +92,7 @@
  
  /* mouse over */
  .box-buttom:hover {
-     color: #7154db;
+     color: #292929;
      background-color: #ffffff;
      border: 3px solid #252525;
      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
